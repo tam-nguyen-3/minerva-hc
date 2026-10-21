@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+.env
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+evals/runs/
+
+PLAN.md
+
+# Minerva's HC descriptions are not redistributable; keep them local.
+data/hcs/docs/
+data/hcs/catalog.md
+data/hcs/catalog.jsonl
